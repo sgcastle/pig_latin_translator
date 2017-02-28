@@ -10,12 +10,8 @@
             <input type="text" name="original_text">
             <br>
             <input type="submit" name="" value="Translate!">
-            <!-- <button type="submit" name="button">Translate</button> -->
         </form>
         <br>
-        <form action="{% url "about" %}">
-            <!-- <input type="submit" name="" value="About the page"> -->
-            <button type="submit" name="button">About the page!</button>
-        </form>
+        <a href="{% url 'about' %}">About Page</a>
     </body>
 </html>
